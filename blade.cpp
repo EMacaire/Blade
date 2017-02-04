@@ -24,7 +24,7 @@ int ask()
 		getline(cin, input);
 		//stringstream myStream(input);
 		
-		if (input=="y")//(myStream >> num && num<deck[x].getSize() &&  num>=0)
+		if (input == "y")//(myStream >> num && num<deck[x].getSize() &&  num>=0)
 			return 1;
 		return 0;
 	}
